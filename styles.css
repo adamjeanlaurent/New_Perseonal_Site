@@ -14,8 +14,8 @@ body {
 
 #imageOfMe {
     position: absolute;
-    top: 30%;
-    left: 10%;
+    top: 25%;
+    left: 16%;
     height: 60%;
     width: 20%;
     border-radius: 2%;
@@ -24,13 +24,13 @@ body {
 #Intro {
     position: absolute;
     top: 20%;
-    left: 50%;
+    left: 58%;
 }
 
 #hello {
-
+    font-size: 50px;
 }
 
 #myName {
-    
+    font-size: 20px;
 }
