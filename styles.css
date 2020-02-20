@@ -24,7 +24,7 @@ body {
 #Intro {
     position: absolute;
     top: 20%;
-    left: 58%;
+    left: 50%;
 }
 
 #hello {
@@ -32,5 +32,37 @@ body {
 }
 
 #myName {
+    white-space: nowrap;
+    margin-left: 15%;
     font-size: 20px;
 }
+
+#socialIcons {
+    white-space: nowrap;
+    margin-left: 30%;
+}
+
+#AboutMeText {
+    position: absolute;
+    top: 45%;
+    left: 40%;
+    width: 40%;
+}
+
+#AboutMeParagraph {
+    font-size: 1vw;
+}
+
+.blueColor {
+    color: #63b7af;
+}
+
+.socialIcon {
+    font-size: 2vw;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+
