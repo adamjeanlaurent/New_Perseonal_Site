@@ -1,7 +1,7 @@
 {
     "particles": {
         "number": {
-            "value": 30
+            "value": 40
         },
         "color": {
             "value": "#000"
@@ -10,20 +10,20 @@
             "type": "circle"
         },
         "opacity": {
-            "value": 0.5
+            "value": 0.2
         },
         "size": {
             "value": 2
         },
         "line_linked": {
             "enable": true,
-            "distance": 150,
+            "distance": 175,
             "color": "#000",
             "width": 1
         },
         "move": {
             "enable": true,
-            "speed": 1
+            "speed": 2
         }
     },
     "interactivity": {
@@ -35,7 +35,7 @@
         },
         "modes": {
             "repulse": {
-                "distance": 75
+                "distance": 130
             }
         }
     }
