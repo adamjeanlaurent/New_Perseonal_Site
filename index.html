@@ -20,11 +20,11 @@
             <span id = "myName">My Name Is <i class="fas fa-volume-up blueColor" id = "volume"></i> Adam Jean-Laurent</span>
             <br>
             <span id = "socialIcons">
-                <a href=""><i class="far fa-sticky-note blueColor socialIcon"></i></a>
-                <a href = ""><i class="fab fa-linkedin blueColor socialIcon"></i></a>
-                <a href = ""><i class="fab fa-github blueColor socialIcon"></i></a>
-                <a href = ""><i class="far fa-envelope-open blueColor socialIcon"></i></a>
-                <a href=""><i class="fab fa-medium blueColor socialIcon"></i></a>
+                <a href="https://drive.google.com/open?id=1jjSYEVU-MEfEpOKa9MTDkcJbRicGmQK5" target="_blank"><i class="far fa-sticky-note blueColor socialIcon"></i></a>
+                <a href = "https://www.linkedin.com/in/adam-jean-laurent/" target="_blank"><i class="fab fa-linkedin blueColor socialIcon"></i></a>
+                <a href = "https://github.com/adamjeanlaurent" target="_blank"><i class="fab fa-github blueColor socialIcon"></i></a>
+                <a href = "mailto: adamjeanlaurent@gmail.com" target="_blank"><i class="far fa-envelope-open blueColor socialIcon"></i></a>
+                <a href="https://medium.com/@adamjeanlaurent" target="_blank"xs><i class="fab fa-medium blueColor socialIcon"></i></a>
             </span>
         </div>
         <!-- Paragraph -->
@@ -65,6 +65,12 @@
 <script>
     particlesJS.load('particles-js', 'particles.json', function() {
         console.log('callback - particles.js config loaded');
+  });
+
+  let speaker = document.getElementById("volume");
+  speaker.addEventListener('click', () => {
+    let myName = new Audio("myname.mp3");
+    myName.play();
   });
 </script>
 </body>
