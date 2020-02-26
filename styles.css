@@ -35,6 +35,7 @@ body {
   white-space: nowrap;
   margin-left: 15%;
   font-size: 20px;
+  width: 35%;
 }
 
 #socialIcons {
@@ -125,7 +126,6 @@ body {
 @media only screen and (max-width: 1500px) {
   #AboutMeParagraph {
     font-size: 1.4vw !important;
-
   }
 }
 
@@ -133,7 +133,6 @@ body {
   #AboutMeParagraph {
     font-size: 1.5vw !important;
   }
-
   #skillsTitle {
     font-size: 1.2vw !important;
   }
@@ -141,11 +140,15 @@ body {
 
 @media only screen and (max-width: 900px) {
   #AboutMeParagraph {
-    font-size: 1.8vw !important;
+    font-size: 2vw !important;
   }
 
   #skillsTitle {
     font-size: 1.9vw !important;
+  }
+
+  #imageOfMe {
+    height: 50%;
   }
 
   .skillsIcon {
@@ -155,6 +158,9 @@ body {
 
 @media only screen and (max-width: 600px) {
   #AboutMeParagraph {
-    font-size: 2.2vw !important;
+    font-size: 2.5vw !important;
+  }
+  #imageOfMe {
+    height: 40%;
   }
 }
