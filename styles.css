@@ -25,16 +25,17 @@ body {
   position: absolute;
   top: 10%;
   left: 50%;
+  width:
 }
 
 #hello {
-  font-size: 50px;
+  font-size: 300%;
 }
 
 #myName {
   white-space: nowrap;
   margin-left: 15%;
-  font-size: 20px;
+  font-size: 130%;
   width: 35%;
 }
 
@@ -59,7 +60,7 @@ body {
 }
 
 .socialIcon {
-  font-size: 2vw;
+  font-size: 2.3vw;
   -webkit-text-stroke: 1.3px #fcfefe;
 }
 
@@ -136,6 +137,10 @@ body {
   #skillsTitle {
     font-size: 1.2vw !important;
   }
+  .socialIcon {
+    font-size: 2.5vw !important;
+    -webkit-text-stroke: 0.8px #fcfefe !important;
+  }
 }
 
 @media only screen and (max-width: 900px) {
@@ -154,6 +159,10 @@ body {
   .skillsIcon {
     font-size: 4.2vw !important;
   }
+  .socialIcon {
+    font-size: 2.8vw !important;
+    -webkit-text-stroke: 0.7px #fcfefe !important;
+  }
 }
 
 @media only screen and (max-width: 600px) {
@@ -162,5 +171,9 @@ body {
   }
   #imageOfMe {
     height: 40%;
+  }
+  .socialIcon {
+    font-size: 5vw !important;
+    -webkit-text-stroke: 0.6px #fcfefe !important;
   }
 }
