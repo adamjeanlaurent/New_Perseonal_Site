@@ -25,7 +25,7 @@ body {
   position: absolute;
   top: 10%;
   left: 50%;
-  width:
+  width: 30%;
 }
 
 #hello {
@@ -172,6 +172,25 @@ body {
   #imageOfMe {
     height: 40%;
   }
+
+  #myName {
+    width: 25% !important;
+    font-size: 90% !important;
+    /* white-space: normal; */
+  } 
+
+  #skills {
+    top: 68%;
+  }
+
+  .skillsIcon {
+    font-size: 5.8vw !important;
+  }
+
+  #copyright {
+    top: 78%;
+  }
+
   .socialIcon {
     font-size: 5vw !important;
     -webkit-text-stroke: 0.6px #fcfefe !important;
