@@ -33,15 +33,15 @@
         <!-- Paragraph -->
         <div id = "AboutMeText">
             <p id = "AboutMeParagraph">
-                I'm a 22 year old, <span class = "bold">senior studying Computer Science</span> at the University Of Rhode Island.
+                I'm a 23 year old, <span class = "bold">Software Engineer</span> working at Microsoft.
                 <br>
                 <br>
-                I'm a <span class = "bold">current Microsoft Software Engineering Intern</span>, 
+                I'm a <span class = "bold">former Microsoft Software Engineering Intern</span>, 
                 a <span class = "bold">former FM Global Software Engineering Intern</span>, 
                 and an <span class = "bold">Alum of the New Technologists Summer Academy at Microsoft</span>.
                 <br>
                 <br>
-                I'm an aspiring <span class = "blueColor bold">Fullstack Software Engineer</span>.
+                I aspire to build tech<span class = "blueColor bold"> that helps people acheive their dreams </span>.
             </p>
         </div>
         <div id = "skills">
@@ -68,10 +68,11 @@
 <script>
     particlesJS.load('particles-js', 'particles.json');
 
-  let speaker = document.getElementById("volume");
+  const speaker = document.getElementById("volume");
+
   speaker.addEventListener('click', () => {
-    let myName = new Audio("myname.mp3");
-    myName.play();
+    const myNameAudio = new Audio("myname.mp3");
+    myNameAudio.play();
   });
 </script>
 </body>
